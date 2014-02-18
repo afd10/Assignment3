@@ -20,4 +20,13 @@
 
 -(IBAction)selectAllOrNone:(id)sender;
 
+
+//To show the URL for the wikipedia site
+- (BOOL)application:(UIApplication *)application handleOpenURL: (NSURL *) http://en.m.wikipedia.org/wiki/Banana;
+
+
+
+
+
+
 @end
