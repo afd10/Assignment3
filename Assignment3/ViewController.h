@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+
+
+
+
 @property (nonatomic, assign) BOOL allSelected;
 
 @property (nonatomic, strong) NSMutableArray *cart;
@@ -18,11 +22,17 @@
 
 @property (nonatomic, weak) IBOutlet UIButton *selectAll;
 
+@property (nonatomic, weak) IBOutlet UIButton *emptyCart;
+
+@property (nonatomic, weak) IBOutelet UIButton *fillCart
+
+
+
 -(IBAction)selectAllOrNone:(id)sender;
 
+-(IBAction)removeAllFruitInCart:(id)sender;
 
-//To show the URL for the wikipedia site
-- (BOOL)application:(UIApplication *)application handleOpenURL: (NSURL *) http://en.m.wikipedia.org/wiki/Banana;
+-(IBAction)fillCartwithBananas:(id)sender;
 
 
 
